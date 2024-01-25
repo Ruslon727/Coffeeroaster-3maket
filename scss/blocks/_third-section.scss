@@ -1,0 +1,50 @@
+.third-section {
+    width: 1280px;
+    height: 562px;
+    margin: auto;
+    margin-top: 300px;
+}
+.third-section-hero {
+    width: 1280px;
+    height: 474px;
+    border-radius: 10px;
+    background: #2C343E;
+    display: flex;
+}
+.third-section-img {
+    float: right;
+    position: relative;
+    left: 100px;
+    bottom: 80px;
+    border-radius: 10px;
+}
+.text_box {
+    width: 540px;
+    height: 210px;
+    display: flex;
+    width: 540px;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: flex-start;
+    gap: 32px;
+    margin-left: 85px;
+    margin-top: 100px;
+}
+.text_box-main-text {
+    color: #FEFCF7;
+    font-family: "Fraunces 9pt";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px;
+}
+.text_box-comment {
+    width: 540px;
+    color: #FEFCF7;
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.8;
+}

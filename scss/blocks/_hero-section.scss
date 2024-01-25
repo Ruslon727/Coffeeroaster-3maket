@@ -1,0 +1,35 @@
+.hero-section {
+    width: 1280px;
+    height: 450px;
+    background-image: url(/images/Object.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: auto;
+}
+.hero {
+    display: flex;
+    width: 445px;
+    flex-direction: column;
+    justify-content: baseline;
+    gap: 24px;
+    padding-top: 137px;
+    padding-left: 85px;
+}
+.hero_info {
+    color: #FEFCF7;
+    font-family: 'Fraunces', serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px;
+}
+.hero_comment {
+    width: 445px;
+    color: #FEFCF7;
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
